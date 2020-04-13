@@ -1,14 +1,20 @@
-# Poll-App
-Polling Application and Admin Controls Using Python Django
-Name: Jeremy Harding
+# Pollster App (Django Crash Course)
 
-Project Description: App is created using Python and Django framework.
+> Python Django app to create polls with questions/choices
 
-https://deviouscuttlefish.github.io/Poll-App/
+## Quick Start
 
-Functionality: Simple polling platform with easy navigation and results displays. Additional admin functionality for adding new poll questions, collecting poll answers, and adjusting tallies
+``` bash
+# Install dependencies
+pipenv install
 
-![Screen Shot 2020-03-09 at 6 57 05 PM](https://user-images.githubusercontent.com/57159977/76269580-da18c080-6237-11ea-805c-6e3b065e0210.png)
+cd pollster
 
+# Serve on localhost:8000
+python manage.py runserver
+```
 
-Technologies Used: Python, Django, HTML, Bootstrap CSS
+### Commands Gist
+You can find all of the commands from the project here:
+https://gist.github.com/bradtraversy/06538da5924882b2cf30fa6310d505b1
+
